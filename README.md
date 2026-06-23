@@ -1,1 +1,1 @@
-Add project documentation and dashboard screenshot
+Project documentation and dashboard screenshot
