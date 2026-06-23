@@ -32,10 +32,10 @@ The dashboard was designed to provide a quick overview of business performance t
 
 
 ### KPI Cards
--Total Revenue: $34.42M
--Highest Revenue City: San Francisco ($8.24M)
--Highest Revenue Month: December ($4.60M)
--Total Orders: 185,328
+• Total Revenue: $34.42M
+• Highest Revenue City: San Francisco ($8.24M)
+• Highest Revenue Month: December ($4.60M)
+• Total Orders: 185,328
 
 ## Dashboard Components
 Revenue Analysis
