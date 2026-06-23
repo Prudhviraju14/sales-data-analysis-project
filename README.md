@@ -92,7 +92,8 @@ ORDER BY SUM(Sales) DESC;
 SELECT City, SUM(Sales) AS City_sales
 FROM sales_data
 GROUP BY City
-ORDER BY SUM(Sales) DESC;
+ORDER BY SUM(Sales) DESC
+LIMIT 3;
 ```
 **Result:**
 1. San Francisco — $8,247,060.32
@@ -110,7 +111,7 @@ SELECT Product, SUM(Sales) AS Product_sales
 FROM sales_data
 GROUP BY Product
 ORDER BY SUM(Sales) DESC
-LIMIT 5;
+LIMIT 3;
 ```
 **Result:**
 1. MacBook Pro Laptop — $8,027,400.00
@@ -128,7 +129,7 @@ SELECT Product, SUM(Quantity_Ordered) AS Total_units
 FROM sales_data
 GROUP BY Product
 ORDER BY SUM(Quantity_Ordered) DESC
-LIMIT 5;
+LIMIT 3;
 ```
 **Result:**
 1. AAA Batteries (4-pack) — 30,880 units
@@ -146,7 +147,7 @@ SELECT Hour, COUNT(DISTINCT Order_ID) AS number_of_orders
 FROM sales_data
 GROUP BY Hour
 ORDER BY COUNT(DISTINCT Order_ID) DESC
-LIMIT 5;
+LIMIT 3;
 ```
 **Result:**
 1. Hour 19 (7 PM) — 12,354 orders
@@ -166,7 +167,7 @@ SELECT DAYNAME(Order_Date) AS day_name, SUM(Sales) AS total_sales
 FROM sales_data
 GROUP BY DAYNAME(Order_Date)
 ORDER BY SUM(Sales) DESC
-LIMIT 5;
+LIMIT 3;
 ```
 **Result:**
 1. Tuesday — $5,084,397.91
