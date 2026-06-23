@@ -64,11 +64,9 @@ Built Pivot Tables to answer six business questions covering monthly revenue tre
 **Phase 5 — Dashboard Creation**
 Designed an Excel dashboard combining four KPI cards (Total Revenue, Total Orders, Top City, Top Month) and three bar charts (Monthly Revenue, City Revenue, Product Revenue) to present findings in a single, readable view.
 
-
 ## Dashboard
 
-
-
+![Dashboard](dashboard.png)
 
 ---
 
