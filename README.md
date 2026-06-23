@@ -25,7 +25,7 @@ The analysis was performed on 185,328 sales records and produced insights into r
 * Dashboard Design
 * MySQL Workbench
 * SQL(Data Import, Database Management)
-* GitHub
+
   
 ## Project Objectives
 
