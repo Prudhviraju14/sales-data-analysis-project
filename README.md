@@ -48,7 +48,7 @@ Revenue by City
 
 ![Looker Studio Dashboard](looker_dashboard.png)
 
-[View Live Dashboard]([paste your Looker Studio link here](https://datastudio.google.com/reporting/3426aadd-e3df-47a2-af02-9536bb83c78e))
+[View Live Dashboard](https://lookerstudio.google.com/your-actual-link)
 ---
 
 ## Key Metrics
